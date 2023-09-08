@@ -1,0 +1,210 @@
+From:	Security Alert <alert@aecert.ae>
+Sent:	Tuesday, April 18, 2023 12:38 PM
+To:	aecert@emiratessteel.com
+Subject:	Kiop Ransomware: Propagation, Exploitation, and Indicators of Compromise
+
+ 
+ 
+ 
+
+
+
+
+
+ 
+MALWARE ADVISORIES
+
+
+
+
+
+ 
+Kiop Ransomware: Propagation, Exploitation, and Indicators of 
+Compromise 
+ 
+
+
+
+
+
+
+
+ 
+
+ 
+
+TLP:CLEAR 
+
+
+
+Apr 18, 2023
+
+
+
+
+
+
+
+
+
+The Kiop Ransomware 
+Kiop is a ransomware program that belongs to the Djvu ransomware family. This malware has been 
+discovered recently. 
+ 
+How it Spreads 
+Ransomware spreads using different techniques such as spam emails and fake torrent sites. After infection, it 
+encrypts files with the ".kiop" extension. For example, it renames 'one[.]jpg' to 'one[.]jpg[.]kiop.' The 
+ransomware creates a '_readme[.]txt' file as a ransom note. This ransomware may be spread alongside Vidar 
+and RedLine. The ransom note dropped by Kiop includes payment and contact details with suggested that 
+victims make contact with the attackers within 72 hours to avoid paying $980 instead of $490 for the 
+decryption tool. It urges that it is not possible to unlock files without these tools. Further, the '_readme[.]txt' file 
+mentions that victims can send a single locked file for free unlocking. The attackers can be communicated via 
+email using support@freshmail[.]top or datarestorehelp@airmail[.]cc address. However, paying the ransom is 
+never a suggested thing to do. 
+ 
+How it Succeeded 
+Ransomware groups use numerous attack vectors such as spam email and fake torrent sites to compromise 
+more victims.
+
+
+Recent Activity 
+Kiop ransomware is found targeting Windows system users. After infection, it asks victims to pay the ransom 
+for decryption. Further, the victims cannot use their locked files anymore. 
+ 
+Indicators of Compromise 
+Encrypted Files Extension 
+.kiop 
+ 
+Ransom Demanding Message 
+_readme[.]txt 
+ 
+Cyber Criminal Contact  
+support@freshmail[.]top 
+datarestorehelp@airmail[.]cc 
+ 
+Filename 
+fkpbzs[.]exe 
+ 
+MD5 
+737d47139287f8188ed06c6e0a8b79e5 
+ 
+SHA-1 
+37b6312431345a14655b7d579dc24c27ac7343fa 
+ 
+SHA-256 
+be09fdb8cab1fbeed78d0d16ed0340113f154e4c5a6fc0eb9367d67e23b3bc50 
+ 
+Vhash 
+0850366d751018z7enz1fz 
+ 
+Authentihash 
+0979d533af2cbd28accdd0ad2f684aa089657ecf1bc346df9a22efec684f8b77 
+ 
+Imphash 
+19f87512189bc3d11ceffc7f82e766f2 
+ 
+Rich PE header hash 
+c2035939aaa5af7640502f1693c9a4c1 
+ 
+SSDEEP 
+12288:UOhKEpEhhzsHB9X+uFgSieq3L0wOVJ6k8ri/hfAw0IWxg+RnJ8seIOgcI:rtWhQfOKgJeMgw5rW/hIp5J
+s 
+ 
+TLSH 
+T16505F152DED2A864F5224E338F1EC7F4FA1EB861FD157A5AA664DA2F09300E1D253334
+
+
+
+
+
+
+
+
+ 
+
+Reference(s) 
+
+PC Risk, Virus Total 
+
+
+
+
+
+
+
+
+
+
+ 
+Threat Indicator(s) 
+ 
+SHA1: 
+37b6312431345a14655b7d579dc24c27ac7343fa 
+ 
+SHA256: 
+0979d533af2cbd28accdd0ad2f684aa089657ecf1bc346df9a22efec684f8b77 
+be09fdb8cab1fbeed78d0d16ed0340113f154e4c5a6fc0eb9367d67e23b3bc50 
+ 
+MD5: 
+c2035939aaa5af7640502f1693c9a4c1 
+19f87512189bc3d11ceffc7f82e766f2 
+737d47139287f8188ed06c6e0a8b79e5
+
+
+ 
+
+
+
+
+
+
+
+
+
+ 
+
+ 
+View Alert
+ 
+
+Tags Kiop, Djvu, Windows, Spam Email, Ransomware
+
+
+TLP:CLEAR Subject to standard copyright rules, TLP:WHITE information may be distributed without 
+restriction.
+
+
+
+
+
+
+
+
+ 
+For more update and alerts, visit: https://alert.aecert.ae 
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+If you are not supposed to receive this email, 
+please contact us at alert@aecert.ae. 
+
+
+
+
+ 
+
+
+
+
+ 
+
+
